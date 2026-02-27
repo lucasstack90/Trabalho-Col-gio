@@ -1,0 +1,78 @@
+body{
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, p{
+  color: black;
+}
+
+
+#carouselAVB img {
+  height: 430px;       /* Ajuste a altura como quiser */
+  object-fit: cover;   /* Deixa a imagem cortada de forma elegante */
+  border-radius: 8px;
+}
+
+.carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* Fundo neutro elegante */
+.sessao-produtos {
+  background: #f8f9fa;
+}
+
+/* Títulos */
+.titulo-loja {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #222;
+}
+
+.subtitulo-loja {
+  color: #777;
+  font-weight: 400;
+}
+
+/* Card moderno */
+.card-loja {
+  border: none;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.card-loja:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Imagem */
+.img-produto {
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* Preço */
+.preco {
+  font-weight: bold;
+  color: #198754;
+  font-size: 1.1rem;
+}
+
+/* Botão */
+.btn-comprar {
+  background: #111;
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.btn-comprar:hover {
+  background: #198754;
+  color: #fff;
+}
